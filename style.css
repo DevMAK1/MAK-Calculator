@@ -82,6 +82,11 @@ body{
     width: 150px;
 }
 
+.calculator .plus{
+    grid-row: span 2;
+    height: 150px;
+}
+
 @media screen and (max-width: 768px){
     body::before {
         max-width: 75vw;
